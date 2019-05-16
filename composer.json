@@ -1,0 +1,31 @@
+{
+    "name": "johnylemon/explainer-laravel",
+    "description": "API Explainer for laravel Framework",
+    "license": "MIT",
+    "keywords": [
+        "api",
+        "swagger",
+        "rest"
+    ],
+    "authors": [
+        {
+            "name": "Piotr Krzempek",
+            "email": "johnylemon1989@gmail.com"
+        }
+    ],
+    "require": {
+        "johnylemon/explainer": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lemon\\ExplainerLaravel\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lemon\\ExplainerLaravel\\Providers\\ExplainerLaravelServiceProvider"
+            ]
+        }
+    }
+}
