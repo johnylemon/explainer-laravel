@@ -1,6 +1,7 @@
 ### Explainer for Laravel
 A simple Laravel api documentation generator
 
+Core package:  https://github.com/johnylemon/explainer
 
 ### Features
 This tool makes possible to explain every app route by using simple `explain` method via clean document accessible under configured route address.
